@@ -4,7 +4,6 @@ import { DrinkListComponent } from './components/drink-list/drink-list.component
 import { FileServingComponent } from './components/file-serving/file-serving.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
-
 const routes: Routes = [
   {path: 'drinklist', component: DrinkListComponent},
   {path: 'files', component: FileServingComponent  },

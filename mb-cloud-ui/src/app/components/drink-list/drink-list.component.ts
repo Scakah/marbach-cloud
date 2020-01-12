@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { drink } from '../../models/drink';
 
 @Component({
   selector: 'app-drink-list',
@@ -9,7 +10,8 @@ export class DrinkListComponent implements OnInit {
 
   constructor() { }
 
-  public drinks: string[] = ['Paulaner Spezi', 'Mineralwasser','Bier','Cider','Bananensaft','Apfelschorle','Wein','Ale','Met'];
+  public drinks: drink[];
+  
   ngOnInit() {
   }
 
