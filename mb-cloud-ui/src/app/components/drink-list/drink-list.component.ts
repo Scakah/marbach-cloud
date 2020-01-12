@@ -9,7 +9,7 @@ export class DrinkListComponent implements OnInit {
 
   constructor() { }
 
-  public drinks: string[] = ['Paulaner Spezi', 'Mineralwasser','Bier','Cider','Bananensaft'];
+  public drinks: string[] = ['Paulaner Spezi', 'Mineralwasser','Bier','Cider','Bananensaft','Apfelschorle','Wein','Ale','Met'];
   ngOnInit() {
   }
 
