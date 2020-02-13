@@ -1,16 +1,32 @@
-card-columns {
-    width: 80%;
-    height: 80%;
+.main-container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
 }
 
-card {
-    height: 300px;
+.drink-card {
+    flex:none;
+    height: 200px;
+    width: 200px;
+}
+
+.card-area{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    overflow-y: scroll;
 }
 
 img.thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 160px;
+    width: auto;
+
 }
 
 controls {
-    flex-shrink: 1;
+
 }
