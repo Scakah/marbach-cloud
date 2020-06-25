@@ -1,24 +1,16 @@
-<header class="header-6 header-class">
-    <div class="branding">
-        <a href="..." class="nav-link">
-            <clr-icon shape="trailer"></clr-icon>
-            <span class="title">Marbach Cloud</span>
-        </a>
-    </div>
-    <div class="header-nav">
-        <a (click)="resolveRoute('drinks')" class="nav-link nav-text" [ngClass]="{'active':isActive('/drinks')}"><span
-                class="nav-text">Getränkeliste</span></a>
-        <a (click)="resolveRoute('files')" class="nav-link nav-text" [ngClass]="{'active':isActive('/files')}"><span
-                class="nav-text">Dateien</span></a>
-        <a (click)="resolveRoute('admin')" class="nav-link nav-text" [ngClass]="{'active':isActive('/admin')}"><span
-                class="nav-text">Administration</span></a>
-    </div>
-    <div class="header-actions">
-        <a href="..." class="nav-link nav-icon" aria-label="settings">
-            <clr-icon shape="cog"></clr-icon>
-        </a>
-    </div>
+<header class="header-6">
+  <div class="branding">
+      ...
+  </div>
+  <div class="header-nav">
+      <a href="javascript://" class="active nav-link nav-text">Dashboard</a>
+      <a href="javascript://" class="nav-link nav-text">Interactive Analytics</a>
+  </div>
+  <div class="header-actions">
+      <a href="javascript://" class="nav-link nav-icon" aria-label="settings">
+      </a>
+  </div>
 </header>
-<div class="content">
-    <router-outlet></router-outlet>
+<div ckass="clr-main-container">
+<app-list></app-list>
 </div>
