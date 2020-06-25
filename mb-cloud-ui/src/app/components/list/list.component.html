@@ -1,56 +1,14 @@
-<div class="clr-row">
-    <div class="clr-col-lg-4 clr-col-12">
+<div class="card-columns">
+    <div *ngFor="let card of cards" class="clr-card">
         <a href="..." class="card clickable">
             <div class="card-img">
-                <img src="..." alt="..." />
+                <img *ngIf="card.imgLink" src="card.imgLink" alt="..." />
             </div>
             <div class="card-block">
+                <h3>{{card.title}}</h3>
                 <p class="card-text">
-                    ...
+                    {{card.body}}
                 </p>
-            </div>
-        </a>
-    </div>
-    <div class="clr-col-lg-4 clr-col-12">
-        <a href="..." class="card clickable">
-            <div class="card-block">
-                <p class="card-text">
-                    ...
-                </p>
-            </div>
-            <div class="card-img">
-                <img src="..." alt="..." />
-            </div>
-        </a>
-    </div>
-    <div class="clr-col-lg-4 clr-col-12">
-        <a href="..." class="card clickable">
-            <div class="card-block">
-                <p class="card-text">
-                    ...
-                </p>
-            </div>
-            <div class="card-img">
-                <img src="..." alt="..." />
-            </div>
-            <div class="card-block">
-                <p class="card-text">
-                    ...
-                </p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="clr-row">
-    <div class="clr-col-lg-6 clr-col-12">
-        <a href="..." class="card clickable card-img">
-            <img src="..." alt="..." />
-        </a>
-    </div>
-    <div class="clr-col-lg-6 clr-col-12">
-        <a href="..." class="card clickable">
-            <div class="card-img">
-                <img src="..." alt="..." />
             </div>
         </a>
     </div>
