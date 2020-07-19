@@ -1039,6 +1039,16 @@
   resolved "https://registry.yarnpkg.com/@clr/angular/-/angular-3.1.4.tgz#b8d34ba596850d25fb70e58ac8d1ce9d3decdff7"
   integrity sha512-x/lCUe2B6aM9GnqC5KD56cqDcY6YaCEqxAHveZ3UXP65usMsyD0kTncJn5o5OirpJye368PrRROwFpjBW23YWg==
 
+"@clr/icons@next":
+  version "4.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@clr/icons/-/icons-4.0.0-rc.1.tgz#b6508b16c7dc2c7f8d71ac4d03b54992d9ea7202"
+  integrity sha512-2tnFnpibGY4ZYghgf+jj6eMwPJ1tjOb8st3z1TSxAyfPGtMT4+YzMPZ0nRD/KSXMlePkh5qHBULDrXp4ialhaQ==
+
+"@clr/ui@next":
+  version "4.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@clr/ui/-/ui-4.0.0-rc.1.tgz#f9fbe3e14568353eeb31e3aa4871e53d1836fd8e"
+  integrity sha512-EHFSMq81Xt/aTn95fGzzaZ+5aXgsD+sFIYykVaXzqbGlM7z7COcz5xCCATdxT86GJHSHTpuezojXaMNdHBmldQ==
+
 "@istanbuljs/schema@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
@@ -1334,6 +1344,11 @@
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
+
+"@webcomponents/webcomponentsjs@^2.0.0":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-2.4.3.tgz#384f4f6d54563ba465fb4df21fe89e78a76fc530"
+  integrity sha512-cV4+sAmshf8ysU2USutrSRYQkJzEYKHsRCGa0CkMElGpG5747VHtkfsW3NdVIBV/m2MDKXTDydT4lkrysH7IFA==
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -5185,9 +5200,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^3.0.0:
   version "3.0.0"
