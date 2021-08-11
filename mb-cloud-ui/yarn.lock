@@ -1039,6 +1039,16 @@
   resolved "https://registry.yarnpkg.com/@clr/angular/-/angular-3.1.4.tgz#b8d34ba596850d25fb70e58ac8d1ce9d3decdff7"
   integrity sha512-x/lCUe2B6aM9GnqC5KD56cqDcY6YaCEqxAHveZ3UXP65usMsyD0kTncJn5o5OirpJye368PrRROwFpjBW23YWg==
 
+"@clr/icons@next":
+  version "5.0.0-next.0"
+  resolved "https://registry.yarnpkg.com/@clr/icons/-/icons-5.0.0-next.0.tgz#a4fd00c96264417df84a17f444bda66ebde11828"
+  integrity sha512-wu+UvPBFme02QOKIFVBGixmSoVkaiwN/3LUdPEHA6H5G7NaHG6roGwTdsio54wVqf4falaqEqHff2IZDD9IC2A==
+
+"@clr/ui@next":
+  version "5.0.0-next.0"
+  resolved "https://registry.yarnpkg.com/@clr/ui/-/ui-5.0.0-next.0.tgz#774172f9df2829d4658efb304dcfd109c0862a76"
+  integrity sha512-5sKatC8LuG14IiOaBoADYA970aMFc/D+rwTo9Hex9VbU4KUW2oo3LELzXKEFgdGT1yCZ+odDwsc7xg5REkEhHA==
+
 "@istanbuljs/schema@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
@@ -1334,6 +1344,11 @@
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
+
+"@webcomponents/webcomponentsjs@^2.0.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-2.6.0.tgz#7d1674c40bddf0c6dd974c44ffd34512fe7274ff"
+  integrity sha512-Moog+Smx3ORTbWwuPqoclr+uvfLnciVd6wdCaVscHPrxbmQ/IJKm3wbB7hpzJtXWjAq2l/6QMlO85aZiOdtv5Q==
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -6175,9 +6190,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
