@@ -1039,6 +1039,16 @@
   resolved "https://registry.yarnpkg.com/@clr/angular/-/angular-3.1.4.tgz#b8d34ba596850d25fb70e58ac8d1ce9d3decdff7"
   integrity sha512-x/lCUe2B6aM9GnqC5KD56cqDcY6YaCEqxAHveZ3UXP65usMsyD0kTncJn5o5OirpJye368PrRROwFpjBW23YWg==
 
+"@clr/icons@next":
+  version "13.0.0-next.0"
+  resolved "https://registry.yarnpkg.com/@clr/icons/-/icons-13.0.0-next.0.tgz#bd8e17ca77197dcbf9dfcc1278c8791b2ac73cf6"
+  integrity sha512-vBaUZGg0P2eCrFqtEz323HU2VlLYkurZpEPGv2ZNU55zibnnVqLkg+6WuOFuUxaYo5nIAih7G9hePZ/oL+iSKA==
+
+"@clr/ui@next":
+  version "13.0.0-next.0"
+  resolved "https://registry.yarnpkg.com/@clr/ui/-/ui-13.0.0-next.0.tgz#deb9400fe828f528ddd4a591c88c233dd4984142"
+  integrity sha512-HlHdlnz47rJ4A1dZr1MRA7BETkfB0W8jisNSybjlE+lXU+Cgy9dPlW8MgsB1hsFVbxxLkjmbRtBTfuic6P+plA==
+
 "@istanbuljs/schema@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
@@ -1334,6 +1344,11 @@
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
+
+"@webcomponents/webcomponentsjs@^2.0.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-2.6.0.tgz#7d1674c40bddf0c6dd974c44ffd34512fe7274ff"
+  integrity sha512-Moog+Smx3ORTbWwuPqoclr+uvfLnciVd6wdCaVscHPrxbmQ/IJKm3wbB7hpzJtXWjAq2l/6QMlO85aZiOdtv5Q==
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -3773,9 +3788,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.12.1.tgz#de54a6205311b93d60398ebc01cf7015682312b6"
-  integrity sha512-tmRv0AVuR7ZyouUHLeNSiO6pqulF7dYa3s19c6t+wz9LD69/uSzdMxJ2S91nTI9U3rt/IldxpzMOFejp6f0hjg==
+  version "1.14.7"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
+  integrity sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==
 
 for-in@^1.0.2:
   version "1.0.2"
