@@ -1039,6 +1039,16 @@
   resolved "https://registry.yarnpkg.com/@clr/angular/-/angular-3.1.4.tgz#b8d34ba596850d25fb70e58ac8d1ce9d3decdff7"
   integrity sha512-x/lCUe2B6aM9GnqC5KD56cqDcY6YaCEqxAHveZ3UXP65usMsyD0kTncJn5o5OirpJye368PrRROwFpjBW23YWg==
 
+"@clr/icons@next":
+  version "13.0.0-next.0"
+  resolved "https://registry.yarnpkg.com/@clr/icons/-/icons-13.0.0-next.0.tgz#bd8e17ca77197dcbf9dfcc1278c8791b2ac73cf6"
+  integrity sha512-vBaUZGg0P2eCrFqtEz323HU2VlLYkurZpEPGv2ZNU55zibnnVqLkg+6WuOFuUxaYo5nIAih7G9hePZ/oL+iSKA==
+
+"@clr/ui@next":
+  version "13.0.0-next.0"
+  resolved "https://registry.yarnpkg.com/@clr/ui/-/ui-13.0.0-next.0.tgz#deb9400fe828f528ddd4a591c88c233dd4984142"
+  integrity sha512-HlHdlnz47rJ4A1dZr1MRA7BETkfB0W8jisNSybjlE+lXU+Cgy9dPlW8MgsB1hsFVbxxLkjmbRtBTfuic6P+plA==
+
 "@istanbuljs/schema@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
@@ -1334,6 +1344,11 @@
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
+
+"@webcomponents/webcomponentsjs@^2.0.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-2.7.0.tgz#8a87aeaaa0757c95eae0e07dd45f3050d1f8be01"
+  integrity sha512-j161Z9oiy8k74vchdrQGihfSp7QulrTclCUiPo0D7JF6/RjpXAmB0ThlTAFlSElkgqg0vdFgNAXaX9ZHZy25wQ==
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -6789,9 +6804,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^4.1.0:
   version "4.3.4"
